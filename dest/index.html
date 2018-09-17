@@ -7,14 +7,32 @@
   </head>
   <body id='page--index'>
     <header>
-      ヘッダー
     </header>
     <main>
-      メイン
+      <div>
+        <select id='selectbox'>
+          <option value='0'>選択してください</option>
+          <option value='1'>会議1</option>
+          <option value='2'>会議2</option>
+        </select>
+      </div>
+      <div id="form" class="none">
+        <button id="btn_add">+</button>
+        <div class="template">
+          <select>
+            <option value="0">test1</option>
+            <option value="1">test2</option>
+          </select>
+          <select>
+            <option value="0">test1</option>
+            <option value="1">test2</option>
+          </select>
+          <button class="btn_rmv">-</button>
+        </div>
+      </div>
     </main>
     <footer>
       <small>
-        フッター
       </small>
     </footer>
     <script src="js/index.js"></script>
